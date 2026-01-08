@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_VECTOR.ALL
+entity Encoder8421toGray is
+	port (z:IN STD_LOGIC_VECTOR(3 downto 0);
+			f:OUT STD_LOGIC_VECTOR(3 downto 0));
+end entity;
+
+architecture arch is
+	signal temp:STD_LOGIC_VECTOR(3 downto 0);
+	process(z)
+		for i in (3 downto 0) loop
+			temp(i)<=z(i+1) xor z(i);
+		end loop;
+		f<=temp;
+	end process;
+end arch;

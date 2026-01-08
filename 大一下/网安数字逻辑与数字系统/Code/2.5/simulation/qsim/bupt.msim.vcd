@@ -1,0 +1,208 @@
+$comment
+	File created using the following command:
+		vcd file bupt.msim.vcd -direction
+$end
+$date
+	Sun Jun 02 14:02:35 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Voter_vlg_vec_tst $end
+$var reg 4 ! z [3:0] $end
+$var wire 1 " f $end
+$var wire 1 # sampler $end
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + z[2]~input_o $end
+$var wire 1 , z[1]~input_o $end
+$var wire 1 - z[0]~input_o $end
+$var wire 1 . z[3]~input_o $end
+$var wire 1 / LessThan0~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 !
+1"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+1+
+1,
+1-
+1.
+1/
+$end
+#10000
+b111 !
+0.
+0#
+#20000
+b11 !
+b1 !
+0,
+0+
+1#
+0/
+0"
+#30000
+b0 !
+b100 !
+b110 !
+0-
+1,
+1+
+0#
+#40000
+b1110 !
+b1111 !
+1-
+1.
+1#
+1/
+1"
+#50000
+b1011 !
+b11 !
+b10 !
+0-
+0+
+0.
+0#
+0/
+0"
+#60000
+b110 !
+b1110 !
+1+
+1.
+1#
+1/
+1"
+#70000
+b1100 !
+0,
+0#
+0/
+0"
+#80000
+b1101 !
+1-
+1#
+1/
+1"
+#90000
+b1001 !
+b1011 !
+1,
+0+
+0#
+#100000
+b1001 !
+0,
+1#
+0/
+0"
+#110000
+b1000 !
+b1100 !
+b1110 !
+0-
+1,
+1+
+0#
+1/
+1"
+#120000
+b1010 !
+0+
+1#
+0/
+0"
+#130000
+b10 !
+b11 !
+1-
+0.
+0#
+#140000
+b10 !
+0-
+1#
+#150000
+b0 !
+b100 !
+b1100 !
+0,
+1+
+1.
+0#
+#160000
+b1101 !
+1-
+1#
+1/
+1"
+#170000
+b1111 !
+b1011 !
+b11 !
+1,
+0+
+0.
+0#
+0/
+0"
+#180000
+b10 !
+b0 !
+b100 !
+b1100 !
+0-
+0,
+1+
+1.
+1#
+#190000
+b1101 !
+b101 !
+1-
+0.
+0#
+#200000
+b100 !
+b1100 !
+0-
+1.
+1#
+#210000
+b1000 !
+b1001 !
+1-
+0+
+0#
+#220000
+b1 !
+0.
+1#
+#240000
+b0 !
+0-
+0#
+#1000000

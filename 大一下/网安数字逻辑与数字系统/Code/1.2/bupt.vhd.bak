@@ -1,0 +1,23 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY count IS
+ PORT( clk   : IN STD_LOGIC;
+       reset : IN STD_LOGIC;
+       q     : OUT STD_LOGIC_VECTOR(3 downto 0));
+END count;
+
+ARCHITECTURE behav OF count IS 
+ SIGNAL a :STD_LOGIC_VECTOR(3 downto 0);
+BEGIN
+PROCESS(clk,reset)
+ BEGIN
+		   IF clk'EVENT AND clk='1' THEN 
+			  IF reset='1' THEN a<=(OTHERS=>'0');
+			  ELSE a<=a+1;
+			  END IF;
+			END IF;
+END PROCESS;
+q<=a;	
+END behav;

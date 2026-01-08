@@ -1,0 +1,14 @@
+|Encoder8421toGray
+z[0] => temp.IN0
+z[1] => temp.IN0
+z[1] => temp.IN1
+z[2] => temp.IN0
+z[2] => temp.IN1
+z[3] => temp.IN1
+z[3] => f[3].DATAIN
+f[0] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= z[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,21 @@
+# do bupt.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Voter
+# 
+# Top level modules:
+# 	Voter
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Voter_vlg_sample_tst
+# -- Compiling module Voter_vlg_check_tst
+# -- Compiling module Voter_vlg_vec_tst
+# 
+# Top level modules:
+# 	Voter_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Voter_vlg_vec_tst 
+# Loading work.Voter_vlg_vec_tst
+# Loading work.Voter
+# Loading work.Voter_vlg_sample_tst
+# Loading work.Voter_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : bupt.vt(148)
+#    Time: 1 us  Iteration: 0  Instance: /Voter_vlg_vec_tst/tb_out

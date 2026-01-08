@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/Files/Code/VHDL/2.3/bupt.vhd
+source_file = 1, E:/Files/Code/VHDL/2.3/Waveform.vwf
+source_file = 1, E:/Files/Code/VHDL/2.3/db/bupt.cbx.xml
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Fulladder
+instance = comp, \S~output , S~output, Fulladder, 1
+instance = comp, \Cout~output , Cout~output, Fulladder, 1
+instance = comp, \A~input , A~input, Fulladder, 1
+instance = comp, \B~input , B~input, Fulladder, 1
+instance = comp, \Cin~input , Cin~input, Fulladder, 1
+instance = comp, \S~0 , S~0, Fulladder, 1
+instance = comp, \Cout~0 , Cout~0, Fulladder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Fulladder, 1

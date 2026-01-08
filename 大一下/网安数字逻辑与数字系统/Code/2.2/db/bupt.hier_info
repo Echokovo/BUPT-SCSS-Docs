@@ -1,0 +1,22 @@
+|compare4
+A[0] => LessThan0.IN4
+A[0] => LessThan1.IN4
+A[1] => LessThan0.IN3
+A[1] => LessThan1.IN3
+A[2] => LessThan0.IN2
+A[2] => LessThan1.IN2
+A[3] => LessThan0.IN1
+A[3] => LessThan1.IN1
+B[0] => LessThan0.IN8
+B[0] => LessThan1.IN8
+B[1] => LessThan0.IN7
+B[1] => LessThan1.IN7
+B[2] => LessThan0.IN6
+B[2] => LessThan1.IN6
+B[3] => LessThan0.IN5
+B[3] => LessThan1.IN5
+YA <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+YB <= YB.DB_MAX_OUTPUT_PORT_TYPE
+YC <= YC.DB_MAX_OUTPUT_PORT_TYPE
+
+

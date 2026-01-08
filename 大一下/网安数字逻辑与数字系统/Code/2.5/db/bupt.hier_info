@@ -1,0 +1,14 @@
+|Voter
+z[0] => Add0.IN2
+z[0] => count.DATAA
+z[1] => count.OUTPUTSELECT
+z[1] => count.OUTPUTSELECT
+z[2] => count.OUTPUTSELECT
+z[2] => count.OUTPUTSELECT
+z[2] => count.OUTPUTSELECT
+z[3] => count[2].OUTPUTSELECT
+z[3] => count[1].OUTPUTSELECT
+z[3] => count[0].OUTPUTSELECT
+f <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

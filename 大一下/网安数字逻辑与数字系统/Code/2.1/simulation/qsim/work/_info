@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Files\Code\VHDL\2.1\simulation\qsim
+vEncoder8421toGray
+Z1 !s100 7:`1Y6;iA5Y>QX=f^Afa_2
+Z2 IHBfG28WS7g=G8Lcg28<GL2
+Z3 V_jKFiUkI5U1Ne^CP3UXVo1
+Z4 dE:\Files\Code\VHDL\2.1\simulation\qsim
+Z5 w1717740898
+Z6 8bupt.vo
+Z7 Fbupt.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|bupt.vo|
+Z10 o-work work -O0
+Z11 n@encoder8421to@gray
+!i10b 1
+!s85 0
+Z12 !s108 1717740899.372000
+Z13 !s107 bupt.vo|
+!s101 -O0
+vEncoder8421toGray_vlg_check_tst
+!i10b 1
+Z14 !s100 h_6OTmCD7ObK;oQUlEQ1]1
+Z15 I@J@CI42=V7NcZS1K8o^jD2
+Z16 VVfl0Dg<B0]^XKX0[L@4Za1
+R4
+Z17 w1717740883
+Z18 8bupt.vt
+Z19 Fbupt.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z20 !s108 1717740899.476000
+Z21 !s107 bupt.vt|
+Z22 !s90 -work|work|bupt.vt|
+!s101 -O0
+R10
+Z23 n@encoder8421to@gray_vlg_check_tst
+vEncoder8421toGray_vlg_sample_tst
+!i10b 1
+Z24 !s100 ?gVXAe3JY7CezWV9P5LHF0
+Z25 I`YB4RTkGQEo[7TfjaSa3K1
+Z26 V[L00`zkTUR20i@P6^a65]3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@encoder8421to@gray_vlg_sample_tst
+vEncoder8421toGray_vlg_vec_tst
+!i10b 1
+Z28 !s100 JLH8_hiOjN56^MK:UmiVP3
+Z29 Ijn1Zz4IzMh=F=jIe5V3nk3
+Z30 VBooLj`lJIYECX;kBmNBh12
+R4
+R17
+R18
+R19
+Z31 L0 205
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@encoder8421to@gray_vlg_vec_tst

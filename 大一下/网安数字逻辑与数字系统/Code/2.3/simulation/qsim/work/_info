@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Files\Code\VHDL\2.3\simulation\qsim
+vFulladder
+Z1 I?H4_i[8VQ8V@iOb9;<RZ91
+Z2 VID4_b61=`nNGK13VjQX:X2
+Z3 dE:\Files\Code\VHDL\2.3\simulation\qsim
+Z4 w1717300320
+Z5 8bupt.vo
+Z6 Fbupt.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@fulladder
+!i10b 1
+Z10 !s100 `mmJYRjLh<WULWk;7JYi82
+!s85 0
+Z11 !s108 1717300321.479000
+Z12 !s107 bupt.vo|
+Z13 !s90 -work|work|bupt.vo|
+!s101 -O0
+vFulladder_vlg_check_tst
+!i10b 1
+!s100 Z537BzQU78mg2`I3Ng7cU0
+I_z@am<E?lD@[z71`@Gd4O0
+V]z446>XNK_T<GmLAh4hIG2
+R3
+R4
+Z14 8bupt.vt
+Z15 Fbupt.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1717300321.601000
+Z17 !s107 bupt.vt|
+Z18 !s90 -work|work|bupt.vt|
+!s101 -O0
+R8
+n@fulladder_vlg_check_tst
+vFulladder_vlg_sample_tst
+!i10b 1
+!s100 eXj=e]D_e4e[jd2T>z3?k1
+IM_=XFlZIR:Y;dhO3EfFRQ2
+VoJ;zJ1?eNQE8l[moz4PH51
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@fulladder_vlg_sample_tst
+vFulladder_vlg_vec_tst
+!i10b 1
+!s100 >iMRDf2MLIkIjPQJQFBAY0
+IeMU_8U6W6RNm8:V9z^POU3
+V<VPI:g^g5C61nh7X?6Q2W3
+R3
+R4
+R14
+R15
+L0 183
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@fulladder_vlg_vec_tst

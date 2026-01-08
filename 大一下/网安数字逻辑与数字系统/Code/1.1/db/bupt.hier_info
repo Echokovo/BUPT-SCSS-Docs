@@ -1,0 +1,14 @@
+|String_Detector
+z => nx_state.s1.DATAB
+z => nx_state.s2.DATAB
+z => nx_state.s3.DATAB
+z => nx_state.s6.DATAB
+z => Selector0.IN1
+z => nx_state.s4.DATAB
+z => nx_state.s5.DATAB
+z => nx_state.s7.DATAB
+clock => pr_state~1.DATAIN
+reset => pr_state~3.DATAIN
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

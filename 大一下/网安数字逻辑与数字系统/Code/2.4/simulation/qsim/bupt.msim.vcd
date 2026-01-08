@@ -1,0 +1,392 @@
+$comment
+	File created using the following command:
+		vcd file bupt.msim.vcd -direction
+$end
+$date
+	Sun Jun 02 13:49:38 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Decoder3to8_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ G1 $end
+$var reg 1 % G2A $end
+$var reg 1 & G2B $end
+$var wire 1 ' Y [7] $end
+$var wire 1 ( Y [6] $end
+$var wire 1 ) Y [5] $end
+$var wire 1 * Y [4] $end
+$var wire 1 + Y [3] $end
+$var wire 1 , Y [2] $end
+$var wire 1 - Y [1] $end
+$var wire 1 . Y [0] $end
+$var wire 1 / sampler $end
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 7 A~input_o $end
+$var wire 1 8 B~input_o $end
+$var wire 1 9 C~input_o $end
+$var wire 1 : Mux7~0_combout $end
+$var wire 1 ; G2A~input_o $end
+$var wire 1 < G2B~input_o $end
+$var wire 1 = G1~input_o $end
+$var wire 1 > Mux8~0_combout $end
+$var wire 1 ? Y[0]$latch~combout $end
+$var wire 1 @ Mux7~1_combout $end
+$var wire 1 A Y[1]$latch~combout $end
+$var wire 1 B Mux7~2_combout $end
+$var wire 1 C Y[2]$latch~combout $end
+$var wire 1 D Mux7~3_combout $end
+$var wire 1 E Y[3]$latch~combout $end
+$var wire 1 F Mux7~4_combout $end
+$var wire 1 G Y[4]$latch~combout $end
+$var wire 1 H Mux7~5_combout $end
+$var wire 1 I Y[5]$latch~combout $end
+$var wire 1 J Mux7~6_combout $end
+$var wire 1 K Y[6]$latch~combout $end
+$var wire 1 L Mux7~7_combout $end
+$var wire 1 M Y[7]$latch~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+0&
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+0'
+x/
+00
+11
+x2
+13
+14
+15
+06
+07
+08
+09
+0:
+0;
+0<
+1=
+1>
+1?
+0@
+1A
+0B
+1C
+0D
+1E
+0F
+1G
+0H
+1I
+0J
+1K
+1L
+0M
+$end
+#10000
+1!
+17
+0/
+1J
+0L
+0K
+1M
+0(
+1'
+#20000
+1"
+0!
+18
+07
+1/
+1H
+0J
+0I
+1K
+0)
+1(
+#30000
+1!
+17
+0/
+1F
+0H
+0G
+1I
+0*
+1)
+#40000
+1#
+0"
+0!
+19
+08
+07
+1/
+1D
+0F
+0E
+1G
+0+
+1*
+#50000
+1!
+17
+0/
+1B
+0D
+0C
+1E
+0,
+1+
+#60000
+1"
+0!
+18
+07
+1/
+1@
+0B
+0A
+1C
+0-
+1,
+#70000
+1!
+17
+0/
+1:
+0@
+0?
+1A
+0.
+1-
+#80000
+0$
+0#
+0"
+0!
+0=
+09
+08
+07
+1/
+0>
+0:
+1L
+#90000
+1$
+1!
+1=
+17
+0/
+1>
+1J
+0L
+1?
+0K
+1.
+0(
+#100000
+1%
+1"
+0$
+0!
+1;
+18
+0=
+07
+1/
+0>
+1H
+0J
+#110000
+1$
+1!
+1=
+17
+0/
+1F
+0H
+#120000
+1&
+1#
+0%
+0"
+0$
+0!
+1<
+19
+0;
+08
+0=
+07
+1/
+1D
+0F
+#130000
+1$
+1!
+1=
+17
+0/
+1B
+0D
+#140000
+1%
+1"
+0$
+0!
+1;
+18
+0=
+07
+1/
+1@
+0B
+#150000
+1$
+1!
+1=
+17
+0/
+1:
+0@
+#160000
+0&
+0#
+0%
+0"
+0!
+0<
+09
+0;
+08
+07
+1/
+1>
+0:
+1L
+1K
+0M
+1(
+0'
+#170000
+1!
+17
+0/
+1J
+0L
+0K
+1M
+0(
+1'
+#180000
+1"
+0!
+18
+07
+1/
+1H
+0J
+0I
+1K
+0)
+1(
+#190000
+1!
+17
+0/
+1F
+0H
+0G
+1I
+0*
+1)
+#200000
+1#
+0"
+0!
+19
+08
+07
+1/
+1D
+0F
+0E
+1G
+0+
+1*
+#210000
+1!
+17
+0/
+1B
+0D
+0C
+1E
+0,
+1+
+#220000
+1"
+0!
+18
+07
+1/
+1@
+0B
+0A
+1C
+0-
+1,
+#230000
+1!
+17
+0/
+1:
+0@
+0?
+1A
+0.
+1-
+#240000
+0#
+0"
+0!
+09
+08
+07
+1/
+0:
+1L
+1?
+0M
+1.
+0'
+#1000000

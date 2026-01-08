@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, E:/Files/Code/VHDL/2.5/bupt.vhd
+source_file = 1, E:/Files/Code/VHDL/2.5/Waveform.vwf
+source_file = 1, E:/Files/Code/VHDL/2.5/db/bupt.cbx.xml
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/quartus/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Voter
+instance = comp, \f~output , f~output, Voter, 1
+instance = comp, \z[2]~input , z[2]~input, Voter, 1
+instance = comp, \z[1]~input , z[1]~input, Voter, 1
+instance = comp, \z[0]~input , z[0]~input, Voter, 1
+instance = comp, \z[3]~input , z[3]~input, Voter, 1
+instance = comp, \LessThan0~0 , LessThan0~0, Voter, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Voter, 1

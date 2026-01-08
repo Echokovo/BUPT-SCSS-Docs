@@ -1,0 +1,43 @@
+|Register8
+D[0] => temp[0].DATAIN
+D[1] => temp[1].DATAIN
+D[2] => temp[2].DATAIN
+D[3] => temp[3].DATAIN
+D[4] => temp[4].DATAIN
+D[5] => temp[5].DATAIN
+D[6] => temp[6].DATAIN
+D[7] => temp[7].DATAIN
+CLK => temp[0].CLK
+CLK => temp[0]~en.CLK
+CLK => temp[1].CLK
+CLK => temp[1]~en.CLK
+CLK => temp[2].CLK
+CLK => temp[2]~en.CLK
+CLK => temp[3].CLK
+CLK => temp[3]~en.CLK
+CLK => temp[4].CLK
+CLK => temp[4]~en.CLK
+CLK => temp[5].CLK
+CLK => temp[5]~en.CLK
+CLK => temp[6].CLK
+CLK => temp[6]~en.CLK
+CLK => temp[7].CLK
+CLK => temp[7]~en.CLK
+OE => temp[0]~en.ACLR
+OE => temp[1]~en.ACLR
+OE => temp[2]~en.ACLR
+OE => temp[3]~en.ACLR
+OE => temp[4]~en.ACLR
+OE => temp[5]~en.ACLR
+OE => temp[6]~en.ACLR
+OE => temp[7]~en.ACLR
+Q[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= temp[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= temp[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= temp[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= temp[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

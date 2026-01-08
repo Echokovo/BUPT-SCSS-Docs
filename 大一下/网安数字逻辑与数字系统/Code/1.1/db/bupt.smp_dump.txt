@@ -1,0 +1,11 @@
+
+State Machine - |String_Detector|pr_state
+Name pr_state.s7 pr_state.s6 pr_state.s5 pr_state.s4 pr_state.s3 pr_state.s2 pr_state.s1 pr_state.s0 
+pr_state.s0 0 0 0 0 0 0 0 0 
+pr_state.s1 0 0 0 0 0 0 1 1 
+pr_state.s2 0 0 0 0 0 1 0 1 
+pr_state.s3 0 0 0 0 1 0 0 1 
+pr_state.s4 0 0 0 1 0 0 0 1 
+pr_state.s5 0 0 1 0 0 0 0 1 
+pr_state.s6 0 1 0 0 0 0 0 1 
+pr_state.s7 1 0 0 0 0 0 0 1 
