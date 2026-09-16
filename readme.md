@@ -4,6 +4,8 @@
 
 请记得阅读各目录下的 readme.txt
 
+欢迎提交 PR
+
 推荐的网站：
 
 - [北邮生存指南](https://guide.byrdocs.org)
